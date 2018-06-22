@@ -79,19 +79,22 @@
         game.guess(letter);
       };
     </script>
-
+      <audio id="audio" src="/assets/audio/ftppuk.mp3" ></audio>
         <audio controls>
       <source src="/assets/audio/ftppuk.mp3" type="audio">
      </audio>
      <!-- fix audio to play in background -->
      <script>
-      function play(){
+      function audio(){
            var audio = document.getElementById("audio");
            audio.play();
                      }
+                   
        </script>
     
-        <audio id="audio" src="/assets/audio/ftppuk.mp3" ></audio>
+       
   <!-- Need to complete score tracker/ -->
+   
+
   </body>
 </html>
