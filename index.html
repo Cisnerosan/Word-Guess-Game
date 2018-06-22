@@ -81,10 +81,17 @@
     </script>
 
         <audio controls>
-      <source src="/assets/audio/pumpedupkicks.wav" type="audio">
+      <source src="/assets/audio/ftppuk.mp3" type="audio">
      </audio>
      <!-- fix audio to play in background -->
-
+     <script>
+      function play(){
+           var audio = document.getElementById("audio");
+           audio.play();
+                     }
+       </script>
+    
+        <audio id="audio" src="/assets/audio/ftppuk.mp3" ></audio>
   <!-- Need to complete score tracker/ -->
   </body>
 </html>
